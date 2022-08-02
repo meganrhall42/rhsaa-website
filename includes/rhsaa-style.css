@@ -1,0 +1,882 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	color: #a99533;
+	padding: 0;
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+}
+
+body {
+	position: relative;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+	min-width: 100%;
+}
+
+main, header, footer {
+	display: block;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+}
+
+footer {
+	margin: 0;
+	width: 100%;
+	color: white;
+	background-image: url("../images/common/websitefooter.png");
+	background-size: cover;
+	position: static;
+	padding: 0;
+	bottom: 0;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+#footdiv.container-fluid {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.stat {
+	display: none;
+}
+
+.banitem {
+	max-height: 100%;
+	width: auto;
+}
+
+.banitemsmall {
+	max-width: 100%;
+	height: auto;
+	padding: 0;
+	padding-top: 2em;
+}
+
+.bantitle {
+	text-align: center;
+	font-size: 4vw;
+	padding: .5em;
+	vertical-align: middle;
+	text-shadow: .02em .02em black;
+}
+
+.bantitlesmall {
+	text-align: center;
+	font-size: 4vh;
+	padding-top: .5em;
+	vertical-align: middle;
+	text-shadow: .02em .02em black;
+}
+
+.banner {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+li {
+	float: left;
+}
+
+li a, .ddbt, .menubt {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: .5em;
+	text-decoration: none;
+}
+
+li a:visited, .menubt a:visited {
+	color: black;
+}
+
+li a:hover, .ddm:hover, .menubt a:hover {
+	background-color: black;
+	color: #a99533;
+	border-radius: .5em;
+}
+
+li.ddm {
+	display: inline-block;
+	width: 20%;
+}
+
+.navbar-toggle {
+	background-color: black;
+	color: #a99533;
+	border-style: solid;
+	border-color: #a99533; /* Changes regular toggle color */
+	height: 3em;
+	width: 3em;
+}
+
+.navbar-toggle:hover {
+	background-color: #a99533;
+	color: black;
+	border-style: solid;
+	border-color: black; /* Changes toggle color on hover */
+}
+
+.ddarrow a:hover {
+	background-color: black;
+	color: #a99533;
+}
+
+.mobilenav {
+	background-color: transparent;
+}
+
+.mobilenav li {
+	background-color: black;
+	color: #a99533;
+	border-radius: .25em;
+	margin: .1em;
+	width: 100%;
+	z-index: 100;
+}
+
+.mobilenav li a {
+	color: #a99533;
+}
+
+.mobileul a {
+	margin-left: 1em;
+}
+
+.mobilenav li a:hover {
+	background-color: #a99533;
+	color: white;
+}
+
+.mobileul {
+	background-color: black;
+}
+
+.navrow {
+	background-color: #c9d0db;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 100%;
+	height: auto;
+}
+
+.navtitle {
+	color: black;
+	font-size: 1.75em;
+	line-height: 1.75em;
+}
+
+.ddm-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	color: black;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	width: 20%;
+}
+
+.ddm-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.ddm-content a:hover {
+	background-color: grey;
+	color: white;
+}
+
+.ddm:hover .ddm-content {
+	display: block;
+}
+
+.navbar {
+	float: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	vertical-align: top;
+}
+
+footer a:link, footer a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.bbar {
+	height: .75em;
+	background: black;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.foott {
+	text-align: center;
+	font-size: 175%;
+	padding: 1em;
+	padding-top: 2em;
+}
+
+.connect {
+	text-align: center;
+	font-size: 125%;
+}
+
+.social {
+	display: inline-block;
+	float: center;
+	margin: auto;
+	background: none;
+}
+
+.social a:hover {
+	background: white;
+}
+
+.icon {
+	height: 3em;
+	width: auto;
+}
+
+.foottext {
+	text-align: center;
+	font-size: 75%;
+}
+
+.photohome {
+	background-image: url("../images/headers/home.png");
+}
+
+.photoabout {
+	background-image: url("../images/headers/about.png");
+}
+
+.photoevent {
+	background-image: url("../images/headers/events.png");
+}
+
+.photoreunion {
+	background-image: url("../images/headers/reunion.png");
+}
+
+.photohistory {
+	background-image: url("../images/headers/history.png");
+}
+
+.photodonate {
+	background-image: url("../images/headers/donate.png");
+}
+
+.photogrant {
+	background-image: url("../images/headers/grant.png");
+}
+
+.photolink {
+	background-image: url("../images/headers/links.png");
+}
+
+.photocontact {
+	background-image: url("../images/headers/contact.png");
+}
+
+.photoboard {
+	background-image: url("../images/headers/boardhead.png");
+}
+
+.photobylaws {
+	background-image: url("../images/headers/bylawshead.png");
+}
+
+.photocom {
+	background-image: url("../images/headers/committeeshead.png");
+}
+
+.photosota {
+	background-image: url("../images/headers/sotahead.png");
+}
+
+.photorhs {
+	background-image: url("../images/headers/rhsevents.png");
+}
+
+.photoplan {
+	background-image: url("../images/headers/reunionplanning.png");
+}
+
+.photoprincess {
+	background-image: url("../images/headers/princesshead.png");
+}
+
+.photogifts {
+	background-image: url("../images/headers/gifthead.png");
+}
+
+.photocoat {
+	background-image: url("../images/headers/coathead.png");
+}
+
+.photomemorial {
+	background-image: url("../images/headers/memorialhead.png");
+}
+
+.photooutstanding {
+	background-image: url("../images/headers/outstanding.png");
+}
+
+.photovolunteer {
+	background-image: url("../images/headers/volunteer.png");
+}
+
+.photoathletic {
+	background-image: url("../images/headers/athletichead.png");
+}
+
+.photofifty {
+	background-image: url("../images/headers/fiftyhead.png");
+}
+
+.photoscholarship {
+	background-image: url("../images/headers/scholarshiphead.png");
+}
+
+.photohome, .photoabout, .photoreunion, .photohistory, .photodonate,
+	.photogrant, .photolink, .photocontact, .photoevent, .photoboard,
+	.photobylaws, .photocom, .photosota, .photorhs, .photoplan,
+	.photoprincess, .photogifts, .photocoat, .photomemorial,
+	.photooutstanding, .photovolunteer, .photoathletic, .photofifty,
+	.photoscholarship {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 25em;
+	margin: 0;
+}
+
+.photot {
+	width: 75%;
+	line-height: 1em;
+	height: 1em;
+	position: relative;
+	left: 12.5%;
+	bottom: 0;
+	margin-bottom: 0;
+	text-align: left;
+	font-size: 5em;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.phototsmall {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	left: 1em;
+	position: relative;
+	text-align: left;
+	font-size: 3em;
+}
+
+.toplevelheader {
+	text-align: center;
+	color: black;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 3em;
+}
+
+.linktitle {
+	color: black;
+	position: relative;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 0;
+}
+
+.quicklinks {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-top: 0;
+	padding-bottom: 2em;
+	position: relative;
+	color: black;
+	background-color: #c9d0db;
+	height: auto;
+	margin: .5em;
+	position: relative;
+	border-radius: 1em;
+	margin-bottom: 2em;
+	box-shadow: 2px 2px #888888;
+}
+
+.grantlinks {
+	width: 100%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	position: relative;
+	color: black;
+	background-color: #c9d0db;
+	height: auto;
+	margin: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1em;
+	margin-bottom: 2em;
+}
+
+.quicktext {
+	font-size: 1.5em;
+	margin: auto;
+	margin-left: .75em;
+	margin-right: .75em;
+	color: black;
+}
+
+.quicklinks a:visited, .quicklinks a, .grantlinks a, .grantlinks a:visited,
+	.quicktext a, .quicktext a:visited {
+	color: black;
+}
+
+.quicklinks a:hover, .grantlinks a:hover, .quicktext a:hover {
+	color: #a99533;
+	text-decoration: none;
+	border-radius: 2em;
+}
+
+#goldHover:hover {
+	color: #a99533;
+}
+
+.blockB {
+	border-radius: 1em;
+	background-color: #45484c;
+	color: white;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	box-shadow: 2px 2px #888888;
+}
+
+.blocktitle {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.blocktext {
+	margin: 0;
+	padding: 1em;
+}
+
+.goldbar {
+	border-color: #a99533;
+}
+
+.abouttext {
+	color: black;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.infoText {
+	color: black;
+	font-size: 1em;
+	text-align: center;
+}
+
+.constructiondiv, .abouttext, .infoText {
+	width: 75%;
+}
+
+.constructiondiv, .abouttext, .infoText, .generalText {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.consttext {
+	font-size: 5vw;
+	text-shadow: .05em .05em white;
+	color: black;
+	background-image: url("../images/common/construction.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 10em;
+	margin: 0;
+	text-align: center;
+}
+
+.sotaInfo {
+	width: 75%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	padding-bottom: 2em;
+	text-align: left;
+	list-style-type: circle;
+}
+
+.sotaInfo li {
+	padding: .25em;
+	width: 100%;
+}
+
+.scholarshipList {
+	background-color: #c9d0db
+}
+
+.blockD ul li {
+	list-style-type: circle;
+}
+
+.blockD ol li {
+	list-style-type: square;
+}
+
+.scholarshipList li {
+	margin-left: 1em;
+	margin-right: auto;
+	width: 100%;
+	text-align: left;
+}
+
+.infolist {
+	padding-bottom: 2em;
+	list-style-type: disc;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bullet {
+	width: 100%;
+}
+
+.sublist {
+	list-style-type: circle;
+}
+
+.subbullet {
+	width: 100%;
+}
+
+.sotatitle {
+	text-align: center;
+	color: black;
+}
+
+.altContentBlock {
+	width: 75%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+}
+
+.shortcuts {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shortbox {
+	margin-bottom: 2em;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.shortpic {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.shorttitle {
+	font-size: 1.25em;
+}
+
+.shortbox a:visited, .shortbox a {
+	color: white;
+}
+
+.shortbox a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.shortbox, .downloadPDFButton {
+	background-color: #a99533;
+	color: white;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+.bylawsection {
+	width: 75%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+.bylawsection p {
+	text-align: left;
+}
+
+.linkbutton {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #45484c;
+	color: white;
+	border-radius: 1em;
+	margin-bottom: 2em;
+	padding: 1em;
+}
+
+.linkbutton a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.linkbutton a:hover h4 {
+	color: black;
+}
+
+.linkbutton a {
+	max-width: 100%;
+}
+
+.linkbutton a:visited, .linkbutton a {
+	color: white;
+}
+
+.maxwidth {
+	width: 100%;
+	margin-left: auto;
+}
+
+.downloadPDFButton {
+	border-radius: 1em;
+	margin: 0;
+}
+
+.mediumGrey {
+	background-color: #cccccc;
+}
+
+.cardInfo {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	color: black;
+}
+
+.cardInfo h6 {
+	color: #a99533
+}
+
+.cardpic {
+	max-width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: .25em;
+	border-color: black;
+	margin-top: .25em;
+	margin-bottom: .25em;
+}
+
+.boardlarge h5, .boardlarge h6, .boardpast h5, .boardpast h6 {
+	color: black;
+}
+
+.boardlarge, .boardpast {
+	text-align: center;
+}
+
+.boardpast {
+	margin-bottom: 2em;
+}
+
+.marginAuto {
+	margin: auto;
+}
+
+.upperMargin {
+	margin-top: 1em;
+}
+
+.blockD {
+	background-color: #c9d0db;
+	border-radius: 1em;
+	margin: 1em;
+	padding: 1em;
+	color: black;
+	box-shadow: 2px 2px #888888;
+}
+
+.blockDInfo {
+	text-align: left;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+.blockDInfo li {
+	padding: .5em;
+}
+
+.card-group {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card {
+	margin-bottom: 1em !important;
+}
+
+.card-div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.infoCard {
+	background-color: #c9d0db;
+	color: black;
+}
+
+.queenCard {
+	background-color: #45484c;
+	color: white;
+}
+
+.infoCard h3, .infoCard h4, .queenCard h3, .queenCard h4 {
+	padding-top: .5em;
+}
+
+.queenPic {
+	border-style: solid;
+	border-width: .25em;
+	border-color: #a99533;
+}
+
+.blockDdetail {
+	color: #a99533;
+}
+
+.blockDlink {
+	font-size: 1.5em;
+	color: black;
+}
+
+.blockDlink a:hover, .quicktext a:hover {
+	color: #a99533;
+}
+
+.blockDlink a:visited {
+	color: black;
+}
+
+.blockD a, .blockD a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.blockD a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.helpbox {
+	background-color: #a99533;
+	border-radius: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	padding-top: 1em;
+}
+
+.helptext {
+	color: black;
+	text-align: left;
+	font-size: 1.25em;
+	margin-top: .5em;
+	padding-bottom: .5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.arrow {
+	height: 30vh;
+	width: auto;
+	padding-left: 1em;
+	padding-right: 4em;
+	padding-bottom: 1em;
+}
+
+.gold {
+	color: #a99533;
+}
+
+.blackText, .generalText {
+	color: black;
+}
+
+#mc_embed_signup {
+	border-radius: 1em;
+	background: #fff;
+	clear: left;
+	color: black;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.blist {
+	background-color: #45484c;
+	width: 100%;
+}
+
+.blistitem {
+	background-color: #45484c;
+	border: none;
+}
