@@ -87,7 +87,7 @@
 				<p class="text-left">
 					The RHSAA has selected a committee of five alumni who will award this scholarship. The committee will complete
 					a blind review of each application (identifying information will be removed from materials) and choose two winners
-					based on both academic and personal achievement. In the event that additional information is required, students will
+					based on both academic and personal achievement. In the event that addtional information is required, students will
 					be contacted via email in response to their application submission and given 7 days to respond. 
 				</p>
 			</div>
