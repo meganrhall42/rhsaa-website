@@ -18,13 +18,19 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <!-- include style sheet -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+  $(function(){
+    $("#header").load("../includes/header.html"); 
+    $("#footer").load("../includes/footer.html");
+  });
+</script>
 
 </head>
 
 <body>
 
-  <?php include('../includes/header.php');?>
+  <div id="header"></div>
 
 
 
@@ -760,7 +766,7 @@
 
   </div>
 
-  <?php include('../includes/footer.php');?>
+  <div id="footer"></div>
 
 </body>
 
