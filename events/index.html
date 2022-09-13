@@ -8,10 +8,16 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!-- include style sheet -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+  $(function(){
+    $("#header").load("../includes/header.html"); 
+    $("#footer").load("../includes/footer.html");
+  });
+</script>
 </head>
 <body>
-  <?php include('../includes/header.php');?>
+  <div id="header"></div>
 
   <div class="container main">
 		<div class="photoevent row">
@@ -21,11 +27,11 @@
 
 		<div class="row upperMargin justify-content-center">
 			<div class="quicklinks marginAuto col-lg-4 col-md-4 col-sm-5 col-5 justify-content-center text-center">
-				<a href="reunions.php" title="Reunions" class="quicktext">Looking
+				<a href="reunions" title="Reunions" class="quicktext">Looking
 					for reunions?</a>
 			</div>
 			<div class="quicklinks marginAuto col-lg-4 col-md-4 col-sm-5 col-5 justify-content-center text-center">
-				<a href="rhs.php" title="Reunions" class="quicktext">Looking for
+				<a href="rhs" title="Reunions" class="quicktext">Looking for
 					Roosevelt events?</a>
 			</div>
 		</div>
@@ -79,6 +85,6 @@
 		</div>
 	</div>
 
-  <?php include('../includes/footer.php');?>
+  <div id="footer"></div>
 </body>
 </html>
