@@ -8,9 +8,16 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+  $(function(){
+    $("#header").load("../includes/header.html"); 
+    $("#footer").load("../includes/footer.html");
+  });
+</script>
 </head>
 <body>
-  <?php include('../includes/header.php');?>
+  <div id="header"></div>
 	<img hidden src="../images/headers/volunteer.png" alt="volunteer header"/>
   	<div class="container main">
 		<div class="photovolunteer row text-center">
@@ -47,7 +54,7 @@
 					and throw some parties.
 				</p>
 				<div>
-					<a href="anniversarymember.php" title="Anniversary Member" class="blockDlink">Learn More &rarr;</a>
+					<a href="anniversarymember" title="Anniversary Member" class="blockDlink">Learn More &rarr;</a>
 				</div>
 			</div>
 		</div> 
@@ -63,7 +70,7 @@
 					Roosevelt events.
 				</p>
 				<div>
-					<a href="commmember.php" title="Communications Member" class="blockDlink">Learn More &rarr;</a>
+					<a href="commmember" title="Communications Member" class="blockDlink">Learn More &rarr;</a>
 				</div>
 			</div>
 			<div class="blockD col-lg-3 col-md-3 col-sm-4 col-10 justify-content-center text-center">
@@ -75,7 +82,7 @@
 					share all the various work we do.
 				</p>
 				<div>
-					<a href="commchair.php" title="Communications Chair" class="blockDlink">Learn More &rarr;</a>
+					<a href="commchair" title="Communications Chair" class="blockDlink">Learn More &rarr;</a>
 				</div>
 			</div>
 		</div>
@@ -91,7 +98,7 @@
 					our association does.
 				</p>
 				<div>
-					<a href="fundmember.php" title="Fundraising Member" class="blockDlink">Learn More &rarr;</a>
+					<a href="fundmember" title="Fundraising Member" class="blockDlink">Learn More &rarr;</a>
 				</div>
 			</div>
 			<div class="blockD col-lg-3 col-md-3 col-sm-4 col-10 justify-content-center text-center">
@@ -103,7 +110,7 @@
 					money and support our organization's mission and projects.
 				</p>
 				<div>
-					<a href="fundchair.php" title="Fundraising Chair" class="blockDlink">Learn More &rarr;</a>
+					<a href="fundchair" title="Fundraising Chair" class="blockDlink">Learn More &rarr;</a>
 				</div>
 			</div>
 		</div>
@@ -119,7 +126,7 @@
 					that will be offered for many years to come.
 				</p>
 				<div>
-					<a href="scholarshipchair.php" title="Scholarship Chair" class="blockDlink">Learn More &rarr;</a>
+					<a href="scholarshipchair" title="Scholarship Chair" class="blockDlink">Learn More &rarr;</a>
 				</div>
 			</div>
 			<div class="blockD col-lg-3 col-md-3 col-sm-4 col-10 justify-content-center text-center">
@@ -130,12 +137,12 @@
 					Connect with Roosevelt's resource advocates and learn their programs to help the Association coordinate donations and support.
 				</p>
 				<div>
-					<a href="resourceliaison.php" title="School Resources Liaison" class="blockDlink">Learn More &rarr;</a>
+					<a href="resourceliaison" title="School Resources Liaison" class="blockDlink">Learn More &rarr;</a>
 				</div>
 			</div>
 		</div>
 
 	</div>
-  <?php include('../includes/footer.php');?>
+<div id="footer"></div>
 </body>
 </html>
