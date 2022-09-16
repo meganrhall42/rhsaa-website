@@ -53,7 +53,9 @@
 				<b>If you are interested in purchasing any of
 				these items, please email history@rooseveltalumni.org to coordinate. </b>
 				</br>
-				Items must be picked up from the Public Storage on Lombard: 6525 N Lombard St, Portland, OR 97203</br>
+				Items must be picked up from the Public Storage on Lombard: 6525 N Lombard St, Portland, OR 97203
+				</br>
+				We will keep this page up to date with items still available. </br>
 			</p>
 			<hr width="75%" class="goldbar">
 			<h5 class="text-center col-12">Gymnasium Floor</h5></br>
@@ -62,7 +64,7 @@
 			</p>
 			</br>
 			<div class="card-group justify-content-center col-lg-12 col-md-12 col-sm-12 col-12">
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-10 card-div">
 					<div class="card text-center infoCard text-light bg-dark">
 						<div class="card-body">
 							<img src="../images/history/gymFloor1.jpg" title="Gym Floor 1"
@@ -71,76 +73,13 @@
 						<h6 class="card-title">Gym Floor Piece #1 (x4)</h6>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
-					<div class="card text-center infoCard text-light bg-dark">
-						<div class="card-body">
-							<img src="../images/history/gymFloor2.jpg" title="Gym Floor 2"
-								class="card-img" />
-						</div>
-						<h6 class="card-title">Gym Floor Piece #2</h6>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
-					<div class="card text-center infoCard text-light bg-dark">
-						<div class="card-body">
-							<img src="../images/history/gymFloor3.jpg" title="Gym Floor 3"
-								class="card-img" />
-						</div>
-						<h6 class="card-title">Gym Floor Piece #3</h6>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
-					<div class="card text-center infoCard text-light bg-dark">
-						<div class="card-body">
-							<img src="../images/history/gymFloor4.jpg" title="Gym Floor 4"
-								class="card-img" />
-						</div>
-						<h6 class="card-title">Gym Floor Piece #4</h6>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
-					<div class="card text-center infoCard text-light bg-dark">
-						<div class="card-body">
-							<img src="../images/history/gymFloor5.jpg" title="Gym Floor 5"
-								class="card-img" />
-						</div>
-						<h6 class="card-title">Gym Floor Piece #5</h6>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
-					<div class="card text-center infoCard text-light bg-dark">
-						<div class="card-body">
-							<img src="../images/history/gymFloor6.jpg" title="Gym Floor 6"
-								class="card-img" />
-						</div>
-						<h6 class="card-title">Gym Floor Piece #6</h6>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-10 card-div">
 					<div class="card text-center infoCard text-light bg-dark">
 						<div class="card-body">
 							<img src="../images/history/gymFloor7.jpg" title="Gym Floor 7"
 								class="card-img" />
 						</div>
 						<h6 class="card-title">Gym Floor Piece #7</h6>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
-					<div class="card text-center infoCard text-light bg-dark">
-						<div class="card-body">
-							<img src="../images/history/gymFloor8.jpg" title="Gym Floor 8"
-								class="card-img" />
-						</div>
-						<h6 class="card-title">Gym Floor Piece #8</h6>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-10 card-div">
-					<div class="card text-center infoCard text-light bg-dark">
-						<div class="card-body">
-							<img src="../images/history/gymFloor9.jpg" title="Gym Floor 9"
-								class="card-img" />
-						</div>
-						<h6 class="card-title">Gym Floor Piece #9</h6>
 					</div>
 				</div>
 			</div>
