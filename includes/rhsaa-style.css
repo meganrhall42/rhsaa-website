@@ -369,12 +369,16 @@ footer a:hover {
 	background-image: url("../images/headers/scholarshiphead.png");
 }
 
+.photowinners {
+	background-image: url("../images/headers/winnershead.png");
+}
+
 .photohome, .photoabout, .photoreunion, .photohistory, .photodonate,
 	.photogrant, .photolink, .photocontact, .photoevent, .photoboard,
 	.photobylaws, .photocom, .photosota, .photorhs, .photoplan,
 	.photoprincess, .photogifts, .photocoat, .photomemorial,
 	.photooutstanding, .photovolunteer, .photoathletic, .photofifty,
-	.photoscholarship {
+	.photoscholarship, .photowinners {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
