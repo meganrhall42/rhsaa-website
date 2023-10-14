@@ -884,3 +884,8 @@ footer a:hover {
 	background-color: #45484c;
 	border: none;
 }
+
+.goldLinkText {
+	font-size: 1.5em;
+	margin-bottom: 0px;
+}
