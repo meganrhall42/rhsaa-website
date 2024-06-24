@@ -889,3 +889,11 @@ footer a:hover {
 	font-size: 1.5em;
 	margin-bottom: 0px;
 }
+
+.sota-list {
+	float: none;
+}
+
+.sota-table-total {
+	border-top: 1pt solid black;
+}
