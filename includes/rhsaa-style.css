@@ -896,6 +896,8 @@ footer a:hover {
 
 .sota-list {
 	float: none;
+	padding: 0;
+	list-style-type: disc;
 }
 
 .sota-table-total {
