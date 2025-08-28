@@ -835,6 +835,10 @@ footer a:hover {
 	text-decoration: none;
 }
 
+.blockDGoldLink a, .blockDGoldLink a:visited {
+	color: #a99533;
+}
+
 .helpbox {
 	background-color: #a99533;
 	border-radius: 1em;
