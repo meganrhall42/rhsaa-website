@@ -483,8 +483,12 @@ footer a:hover {
 	border-radius: 2em;
 }
 
-#goldHover:hover {
+a.goldHover:hover {
 	color: #a99533;
+}
+
+a.whiteHover:hover {
+	color: white;
 }
 
 .blockB {
