@@ -756,6 +756,10 @@ a.whiteHover:hover {
 	margin-bottom: 2em;
 }
 
+.boardpast h5 {
+	font-size: 1em;
+}
+
 .marginAuto {
 	margin: auto;
 }
