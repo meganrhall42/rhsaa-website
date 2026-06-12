@@ -381,12 +381,17 @@ footer a:hover {
 	background-image: url("../images/headers/principals.jpg");
 }
 
+.photoverboutaward {
+	background-image: url("../images/headers/verboutaward.jpg");
+}
+
 .photohome, .photoabout, .photoreunion, .photohistory, .photodonate,
 	.photogrant, .photolink, .photocontact, .photoevent, .photoboard,
 	.photobylaws, .photocom, .photosota, .photorhs, .photoplan,
 	.photoprincess, .photogifts, .photocoat, .photomemorial,
 	.photooutstanding, .photovolunteer, .photoathletic, .photofifty,
-	.photoscholarship, .photowinners, .photonews, .photoprincipals {
+	.photoscholarship, .photowinners, .photonews, .photoprincipals,
+	.photoverboutaward {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
